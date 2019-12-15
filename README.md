@@ -49,7 +49,7 @@ For example, `blogs_31.json` should look something like this:
 | url |url|...|url|
 | date |date|...|date|
 
-### How any why is the data divided
+### How and why is the data divided
 The reasons for dividing the data into separate files are for organization and efficiency purposes. Loading or requesting data for 10 blogs on one page load is manageable. But not 120 blogs at once. This way json data handling is controlled and not flooded at once
 
 the `blogFileCounter.json` will allow us to request the latest pushed blogs on from our front end easily. A `Load More` or autoload on scroll can be introduced with this data devision.
